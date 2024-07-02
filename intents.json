@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": ["hello", "hey", "hi", "Whats Up"],
+      "responses": ["Hello", "Hello There", "What can i do 4 u"]
+    },
+    {
+      "tags": "bye",
+      "patterns": ["bye", "see you latter", "done", "Thank You"],
+      "responses": ["byeeeeeeeee", "Good Night", "Any thing else"]
+    },
+    {
+      "tags": "age",
+      "patterns": ["age", "old", "young", "new"],
+      "responses": ["25", "15", "99"]
+    },
+    {
+      "tags": "name",
+      "patterns": ["name", "naam"],
+      "responses": ["Ramesh", "Suresh", "Dinesh"]
+    },
+    {
+      "tags": "food",
+      "patterns": ["food", "khana", "dinner", "Lunch"],
+      "responses": ["Pasta", "noodle", "roti"]
+    }
+  ]
+}
