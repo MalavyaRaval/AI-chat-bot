@@ -2,28 +2,48 @@
   "intents": [
     {
       "tags": "greetings",
-      "patterns": ["hello", "hey", "hi", "Whats Up"],
-      "responses": ["Hello", "Hello There", "What can i do 4 u"]
+      "patterns": ["hello", "hey", "hi", "hey there", "greetings", "good morning", "good evening", "morning"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What's on your mind?", "Greetings! Need assistance?"]
     },
     {
       "tags": "bye",
-      "patterns": ["bye", "see you latter", "done", "Thank You"],
-      "responses": ["byeeeeeeeee", "Good Night", "Any thing else"]
+      "patterns": ["bye", "see you later", "goodbye", "i'm done", "talk to you later", "goodnight", "night", "good night"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Take care! Sleep well!"]
+    },
+    {
+      "tags": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how's it going", "are you okay"],
+      "responses": ["I'm doing great, thanks for asking!", "I'm functioning perfectly, ready to chat!", "Doing well! How about you?"]
+    },
+    {
+      "tags": "help",
+      "patterns": ["help", "what can you do", "can you help me", "what is this", "what do you mean"],
+      "responses": ["I'm here to chat and practice conversation!", "I can answer basic questions or just talk. Try asking me about my name or food."]
     },
     {
       "tags": "age",
-      "patterns": ["age", "old", "young", "new"],
-      "responses": ["25", "15", "99"]
+      "patterns": ["how old are you", "what is your age", "age", "how long have you been around"],
+      "responses": ["I'm just a digital bot, so I don't have an age in years!", "I'm ageless, really."]
     },
     {
       "tags": "name",
-      "patterns": ["name", "naam"],
-      "responses": ["Ramesh", "Suresh", "Dinesh"]
+      "patterns": ["what is your name", "who are you", "do you have a name", "what's your name"],
+      "responses": ["I'm your AI Chat Bot!", "You can call me Lobster-Bot."]
     },
     {
       "tags": "food",
-      "patterns": ["food", "khana", "dinner", "Lunch"],
-      "responses": ["Pasta", "noodle", "roti"]
+      "patterns": ["what do you like to eat", "what is your favorite food", "food", "are you hungry"],
+      "responses": ["I don't eat, but I hear pasta is quite popular!", "I'm powered by electricity, not food!"]
+    },
+    {
+      "tags": "weather",
+      "patterns": ["how is the weather", "is it raining", "what's the weather like"],
+      "responses": ["I don't have a window to check the weather, but I hope it's nice out!", "My server room is always climate-controlled!"]
+    },
+    {
+      "tags": "noanswer",
+      "patterns": ["", "what", "huh", "random"],
+      "responses": ["I'm sorry, I don't quite understand that. Could you try asking in a different way?"]
     }
   ]
 }
